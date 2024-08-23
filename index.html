@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <div class="left-panel">
             <h1 class="logo">d</h1>
             <div class="panel-selet">
                 <textarea class="input-text" placeholder="Ingrese el texto aqui"></textarea>
-                <p class="info-text"><img src="./img/Vector.png" alt="signoDeExclamaciòn">Solo letras minúsculas y sin acentos</p>
+                <p class="info-text"><img src="./img/Vector.png" alt="signoDeExclamaciòn">Solo letras minúsculas y sin
+                    acentos</p>
                 <div class="buttons">
                     <button class="button button-encrypt">Encriptar</button>
                     <button class="button button-decrypt">Desencriptar</button>
@@ -23,12 +28,19 @@
             </div>
         </div>
         <div class="right-panel">
-            <img src="./img/Muñeco.png" alt="Imagen de no mensaje encontrado">
-            <p class="message-informative">Ningún mensaje fue encontrado</p>
-            <p class="message">
-                Ingresa el texto que desees encriptar o desencriptar.
-            </p>
+            <div class="newcontainer">
+                <img class="panel-img" src="./img/Muñeco.png" alt="Imagen de no mensaje encontrado">
+                <p class="message-informative">Ningún mensaje fue encontrado</p>
+                <p class="message">
+                    Ingresa el texto que desees encriptar o desencriptar.
+                </p>
+            </div>
         </div>
     </div>
+    <footer class="footer">
+        <p>© 2024 - Laura Falla. Todos los derechos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
 </body>
+
 </html>
