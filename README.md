@@ -9,18 +9,24 @@ Las reglas utilizadas para encriptar el texto son las siguientes:
 - La letra "a" se convierte en "ai"
 - La letra "o" se convierte en "ober"
 - La letra "u" se convierte en "ufat"
-Ejemplos:
+  ## Ejemplos:
 "gato" se convierte en "gaitober"
 "gaitober" se convierte de nuevo en "gato"
 
 # Requisitos y Restricciones
-## Solo letras minúsculas: El encriptador solo funciona con letras en minúscula.
-## Sin acentos ni caracteres especiales: No deben usarse letras con acentos ni caracteres especiales.
+## Solo letras minúsculas:
+El encriptador solo funciona con letras en minúscula.
+## Sin acentos ni caracteres especiales:
+No deben usarse letras con acentos ni caracteres especiales.
 # Características
-## Encriptación y desencriptación: Convierte texto según las reglas mencionadas y permite revertir la conversión.
-## Copiar al portapapeles: Botón para copiar el texto encriptado o desencriptado.
-## Diseño adaptable: Optimizado para PC, tablets y móviles.
-## Interfaz amigable: Simple e intuitiva para facilitar su uso.
+## Encriptación y desencriptación: 
+Convierte texto según las reglas mencionadas y permite revertir la conversión.
+## Copiar al portapapeles: 
+Botón para copiar el texto encriptado o desencriptado.
+## Diseño adaptable: 
+Optimizado para PC, tablets y móviles.
+## Interfaz amigable: 
+Simple e intuitiva para facilitar su uso.
 
 # Tecnologías Utilizadas
 HTML5
