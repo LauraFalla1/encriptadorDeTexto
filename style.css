@@ -202,7 +202,7 @@ h1 {
         margin-top: 73.42px;
         margin-left: 40px;
         margin-right: 40px;
-        height: 937px;
+
     }
 
     .logo {
@@ -211,7 +211,7 @@ h1 {
 
     .panel-selet {
         padding: 0;
-        height: 763px;
+        height: 811px;
     }
 
     .input-text {
@@ -227,8 +227,72 @@ h1 {
         width: auto;
     }
 
-    .newcontainer {
-        padding: 32px 0;
+    .texto-encriptado {
+        width: auto;
     }
 
+    .button-copy {
+        margin: 0 32px 32px 32px;
+        max-width: 624px;
+    }
+
+    .button{
+        width: 624px;
+    }
+
+}
+
+@media (max-width:767px){
+    .container {
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        margin: 24px 16px;
+        width: auto;
+    }
+
+    .panel-img {
+        display: none;
+    }
+
+    .left-panel {
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+
+    }
+    .buttons {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .panel-selet {
+        padding: 0;
+        height: 571px;
+    }
+
+    .input-text{
+        margin-top: 100px;
+        height: 283px;
+    }
+
+    .right-panel {
+        width: auto;
+        margin: 32px 8px 16px 8px ;
+    }
+
+    .newcontainer {
+        height: auto;
+    }
+
+    .texto-encriptado {
+        margin: 0;
+        max-width: 279px;
+        margin: 32px;
+    }
+
+    .button-copy{
+        margin: 0px 32px 32px 32px;
+        max-width: 279px;
+    }
 }
